@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Settings — Verbum</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">Verbum</a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="library.html">My Sets</a>
+        <a href="create.html">Create</a>
+        <a href="study.html">Study</a>
+        <a href="progress.html">Progress</a>
+        <a href="settings.html" class="active">Settings</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <h1>Settings</h1>
+
+    <form action="#" method="post" class="box">
+
+      <label for="goal">Daily review goal (cards)</label>
+      <input type="number" id="goal" value="30">
+
+      <label for="new">New cards per day</label>
+      <input type="number" id="new" value="10">
+
+      <label for="name">Display name</label>
+      <input type="text" id="name" placeholder="Your name">
+
+      <p style="margin-top:16px;">
+        <label class="check"><input type="checkbox" checked> Show timer while studying</label>
+        <label class="check"><input type="checkbox"> Shuffle cards</label>
+        <label class="check"><input type="checkbox" checked> Daily reminder</label>
+      </p>
+
+      <button type="submit" class="btn">Save Changes</button>
+
+    </form>
+
+  </main>
+
+  <footer>
+    <p>Verbum</p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create a Set — Verbum</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">Verbum</a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="library.html">My Sets</a>
+        <a href="create.html" class="active">Create</a>
+        <a href="study.html">Study</a>
+        <a href="progress.html">Progress</a>
+        <a href="settings.html">Settings</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <h1>Create a New Set</h1>
+
+    <form action="#" method="post" class="box">
+
+      <label for="title">Title</label>
+      <input type="text" id="title" placeholder="e.g. Cell Structures">
+
+      <label for="subject">Subject</label>
+      <select id="subject">
+        <option>Biology</option>
+        <option>Computer Science</option>
+        <option>Languages</option>
+        <option>History</option>
+        <option>Other</option>
+      </select>
+
+      <h2>Cards</h2>
+
+      <div class="row">
+        <div style="flex:1;">
+          <label for="front1">Front 1</label>
+          <input type="text" id="front1" placeholder="Term">
+        </div>
+        <div style="flex:1;">
+          <label for="back1">Back 1</label>
+          <input type="text" id="back1" placeholder="Definition">
+        </div>
+      </div>
+
+      <div class="row">
+        <div style="flex:1;">
+          <label for="front2">Front 2</label>
+          <input type="text" id="front2">
+        </div>
+        <div style="flex:1;">
+          <label for="back2">Back 2</label>
+          <input type="text" id="back2">
+        </div>
+      </div>
+
+      <div class="row">
+        <div style="flex:1;">
+          <label for="front3">Front 3</label>
+          <input type="text" id="front3">
+        </div>
+        <div style="flex:1;">
+          <label for="back3">Back 3</label>
+          <input type="text" id="back3">
+        </div>
+      </div>
+
+      <p style="margin-top:16px;">
+        <button type="button" class="btn btn-outline">+ Add card</button>
+        <button type="submit" class="btn">Save Set</button>
+      </p>
+
+    </form>
+
+  </main>
+
+  <footer>
+    <p>Verbum</p>
+  </footer>
+
+</body>
+</html>
